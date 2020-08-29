@@ -6,6 +6,8 @@
   max-width:1170px;
   width: 100%;
   margin: auto;
+  padding: 0 10px;
+  box-sizing: border-box;
 }
 header{
   background-image: url("../images/AboutUs_03.png");
@@ -31,12 +33,27 @@ section {
     text-transform: uppercase;
   }
 
-  .container.bg-white {
+  .bg-white {
     background-color: white;
     padding: 10px;
   }
   p{
     padding-top: 10px;
     font-weight: lighter;
+  }
+img{
+  max-width: 100%;
+  margin: auto;
+  display: block;
+  padding-top: 5px;
+}
+}
+footer{
+  background-color: #323232;
+  padding: 100px 0;
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+  div {
+  text-align: center;
   }
 }
